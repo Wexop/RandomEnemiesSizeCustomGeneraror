@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RandomEnemiesCustomGenerator</title>
+    <link href="style.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="center">
+    <h1 class="bigText">Random enemies size custom generator !</h1>
+
+    <div id="stringContainer">
+        <p>You have to use the <strong>EXACT</strong> monster's ingame to config his size. You find all monsters ingame
+            name
+            <a class="textBlue" href="/monstersDetails.html">here</a>
+        <p>
+        <p>Copy this to your configs :</p>
+        <p id="string">t</p>
+
+        <a href="#" onclick="copyString()" class="btn">
+            Copie !
+        </a>
+
+    </div>
+
+    <div id="enemiesForm"></div>
+
+    <a href="#" onclick="addEnemyForm()" class="btn">
+        Add enemy
+    </a>
+    <script src="script.js"></script>
+
+    <h1 class="bigText">Ingame monsters names list</h1>
+    <p>Here are the ingame monsters name that you have to use in your config: </p>
+    <ul id="monstersList">
+
+    </ul>
+
+    <script src="monsters.js"></script>
+
+</div>
+
+</body>
+</html>

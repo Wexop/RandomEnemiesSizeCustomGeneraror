@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    background-color: #004f7b;
+    color: #ffffff;
+    font-family: Fredoka;
+}
+
+p {
+    font-size: 18px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigText {
+    font-size: 45px;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #0090e3;
+    color: white;
+    text-decoration: none;
+}
+
+.danger {
+    background-color: indianred;
+}
+
+input {
+    border-radius: 20px;
+    padding: 8px;
+    border: 2px solid transparent;
+    margin: 10px 5px
+}
+
+#enemiesForm {
+    margin-bottom: 20px;
+}
+
+.formContainer {
+    background-color: #3c83c0;
+    padding: 25px;
+    border-radius: 20px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 5px 0px
+}
+
+#stringContainer {
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#string {
+    color: #86c7ff;
+    margin-bottom: 30px;
+}
+
+.textBlue {
+    color: #86c7ff;
+}
+
+
