@@ -15,18 +15,40 @@
     <h1 class="bigText">Random enemies size custom generator !</h1>
 
     <div id="stringContainer">
+        <h2>Monsters</h2>
         <p>You have to use the <strong>EXACT</strong> monster's ingame name to config his size. You can find all
-            monsters ingame names
+            details ingame names
             <a class="textBlue" href="#monstersList">below</a>
         <p>
-        <p>Copy this to your configs :</p>
-        <p id="string">t</p>
+        <p>Copy this to your CustomEnemiesSize configs :</p>
+        <p id="string"></p>
 
         <a href="#" onclick="copyString()" class="btn">
             Copy !
         </a>
 
+        <h2>Interiors</h2>
+        <p>You have to use the <strong>EXACT</strong> interior's ingame name to config the mutliplier. You can find all
+            interiors ingame names
+            <a class="textBlue" href="#interiorsList">below</a>
+        <p>
+        <p>Copy this to your CustomInteriorsSize configs :</p>
+        <p id="stringInterior"></p>
+
+        <a href="#" onclick="copyInteriorString()" class="btn">
+            Copy !
+        </a>
+
+        <a href="#" onclick="addInteriorForm()" class="btn purple">
+            Add interior
+        </a>
+
+
     </div>
+
+    <div id="interiorsForm"></div>
+
+    <div>---------------------</div>
 
     <div id="enemiesForm"></div>
 
@@ -35,13 +57,19 @@
     </a>
     <script src="script.js"></script>
 
-    <h1 class="bigText">Ingame monsters names list</h1>
-    <p>Here are the ingame monsters name that you have to use in your config: </p>
+    <h1 class="bigText">Ingame details names list</h1>
+    <p>Here are the ingame details name that you have to use in your config: </p>
     <ul id="monstersList">
 
     </ul>
 
-    <script src="monsters.js"></script>
+
+    <h1 class="bigText">Ingame interiors names list</h1>
+    <p>Here are the ingame interiors name that you have to use in your config: </p>
+    <ul id="interiorsList"></ul>
+
+    <script src="details.js"></script>
+
 
 </div>
 

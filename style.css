@@ -11,6 +11,7 @@ html {
 
 p {
     font-size: 18px;
+    margin: 5px 0px;
 }
 
 .center {
@@ -30,10 +31,15 @@ p {
     background-color: #0090e3;
     color: white;
     text-decoration: none;
+    margin: 5px 0px
 }
 
 .danger {
     background-color: #d85d5d;
+}
+
+.purple {
+    background-color: #a260e1;
 }
 
 input {
@@ -66,7 +72,7 @@ input {
     flex-direction: column;
 }
 
-#string {
+#string, #stringInterior {
     color: #86c7ff;
     margin-bottom: 30px;
 }

@@ -1,4 +1,4 @@
-const monsters = [
+const details = [
   "ForestGiant",
   "Baboon hawk",
   "Blob",
@@ -26,10 +26,22 @@ const monsters = [
 
 let list = ""
 
-for ( let i = 0; i < monsters.length; i++ ) {
-  list += `<li><p>${ monsters[i] }</p></li>`
+for ( let i = 0; i < details.length; i++ ) {
+  list += `<li><p>${ details[i] }</p></li>`
 }
 
-console.log( list )
-
 document.getElementById( "monstersList" ).innerHTML = list
+
+const interiorsList = [
+  "Facility",
+  "HauntedMansion",
+]
+
+list = ""
+
+for ( let i = 0; i < interiorsList.length; i++ ) {
+  list += `<li><p>${ interiorsList[i] }</p></li>`
+}
+
+document.getElementById( "interiorsList" ).innerHTML = list
+
