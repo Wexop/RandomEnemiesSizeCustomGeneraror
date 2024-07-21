@@ -22,6 +22,8 @@ const details = [
   "Bunker Spider",
   "Earth Leviathan",
   "Spring",
+  "Clay Surgeon",
+  "Bush Wolf",
 ]
 
 let list = ""
