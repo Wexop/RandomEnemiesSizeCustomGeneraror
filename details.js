@@ -24,6 +24,8 @@ const details = [
   "Spring",
   "Clay Surgeon",
   "Bush Wolf",
+  "Maneater",
+  "GiantKiwi"
 ]
 
 let list = ""
@@ -47,3 +49,4 @@ for ( let i = 0; i < interiorsList.length; i++ ) {
 
 document.getElementById( "interiorsList" ).innerHTML = list
 
+const moonList = []
