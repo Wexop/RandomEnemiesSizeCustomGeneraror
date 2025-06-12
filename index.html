@@ -43,7 +43,7 @@
         <p id="stringInterior"></p>
 
         <button onclick="copyInteriorString()" class="btn">Copy !</button>
-        <button href="#interiorsSection" onclick="addInteriorForm()" class="btn purple" style="margin-left: 10px;">Add
+        <button onclick="addInteriorForm()" class="btn purple" style="margin-left: 10px;">Add
             interior
         </button>
 
@@ -52,6 +52,27 @@
         <h3 style="margin-top: 30px;">Ingame interiors names list</h3>
         <ul id="interiorsList"></ul>
     </section>
+
+    <!-- MOONS SECTION -->
+    <section id="moonsSection" style="margin-bottom: 40px;">
+        <h2>Moons</h2>
+        <p>You have to use the <strong>EXACT</strong> planet's ingame name to configure the values. You can find
+            all the ingame names <a class="textBlue" href="#moonsList">below</a>.</p>
+
+        <p>Copy this to your <code>CustomMoonEnemiesSize</code> configs:</p>
+        <p id="stringMoons"></p>
+
+        <button onclick="copyMoonString()" class="btn">Copy !</button>
+        <button onclick="addMoonForm()" class="btn purple" style="margin-left: 10px;">Add
+            moon
+        </button>
+
+        <div style="margin-top: 20px;" id="moonsForm"></div>
+
+        <h3 style="margin-top: 30px;">Ingame moons names list</h3>
+        <ul id="moonsList"></ul>
+    </section>
+
 
     <script src="script.js"></script>
     <script src="details.js"></script>

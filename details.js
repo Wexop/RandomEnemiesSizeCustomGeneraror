@@ -50,3 +50,12 @@ for ( let i = 0; i < interiorsList.length; i++ ) {
 document.getElementById( "interiorsList" ).innerHTML = list
 
 const moonList = ["experimentation", "assurance", "offense", "vow", "march", "adamance", "rend", "dine", "titan", "artifice", "embrion"]
+
+list = ""
+
+for ( let i = 0; i < moonList.length; i++ ) {
+  list += `<li><p>${ moonList[i] }</p></li>`
+}
+
+document.getElementById( "moonsList" ).innerHTML = list
+
