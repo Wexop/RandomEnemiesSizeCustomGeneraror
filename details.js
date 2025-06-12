@@ -49,4 +49,4 @@ for ( let i = 0; i < interiorsList.length; i++ ) {
 
 document.getElementById( "interiorsList" ).innerHTML = list
 
-const moonList = []
+const moonList = ["experimentation", "assurance", "offense", "vow", "march", "adamance", "rend", "dine", "titan", "artifice", "embrion"]

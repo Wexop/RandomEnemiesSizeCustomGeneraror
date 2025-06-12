@@ -5,7 +5,6 @@
     <title>RandomEnemiesCustomGenerator</title>
     <link href="style.css" rel="stylesheet">
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
@@ -14,64 +13,48 @@
 <div class="center">
     <h1 class="bigText">Random enemies size custom generator !</h1>
 
-    <div id="stringContainer">
+    <!-- MONSTERS SECTION -->
+    <section id="monstersSection" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 2px dashed #ccc;">
         <h2>Monsters</h2>
-        <p>You have to use the <strong>EXACT</strong> monster's ingame name to config his size. You can find all
-            details ingame names
-            <a class="textBlue" href="#monstersList">below</a>
-        <p>
-        <p>Copy this to your CustomEnemiesSize configs :</p>
+        <p>You have to use the <strong>EXACT</strong> monster's ingame name to configure its size. You can find all the
+            ingame names <a class="textBlue" href="#monstersList">below</a>.</p>
+
+        <p>Copy this to your <code>CustomEnemiesSize</code> configs:</p>
         <p id="string"></p>
 
-        <a href="#" onclick="copyString()" class="btn">
-            Copy !
-        </a>
+        <button onclick="copyString()" class="btn">Copy !</button>
+        <button onclick="addEnemyForm()" class="btn purple" style="margin-top: 10px;">Add enemy</button>
 
+
+        <div style="margin-top: 20px; width: 75%" id="enemiesForm"></div>
+
+
+        <h3 style="margin-top: 30px;">Ingame monster names list</h3>
+        <ul id="monstersList"></ul>
+    </section>
+
+    <!-- INTERIORS SECTION -->
+    <section id="interiorsSection" style="margin-bottom: 40px;">
         <h2>Interiors</h2>
-        <p>You have to use the <strong>EXACT</strong> interior's ingame name to config the mutliplier. You can find all
-            interiors ingame names
-            <a class="textBlue" href="#interiorsList">below</a>
-        <p>
-        <p>Copy this to your CustomInteriorsSize configs :</p>
+        <p>You have to use the <strong>EXACT</strong> interior's ingame name to configure the multiplier. You can find
+            all the ingame names <a class="textBlue" href="#interiorsList">below</a>.</p>
+
+        <p>Copy this to your <code>CustomInteriorsSize</code> configs:</p>
         <p id="stringInterior"></p>
 
-        <a href="#" onclick="copyInteriorString()" class="btn">
-            Copy !
-        </a>
+        <button onclick="copyInteriorString()" class="btn">Copy !</button>
+        <button href="#interiorsSection" onclick="addInteriorForm()" class="btn purple" style="margin-left: 10px;">Add
+            interior
+        </button>
 
-        <a href="#" onclick="addInteriorForm()" class="btn purple">
-            Add interior
-        </a>
+        <div style="margin-top: 20px;" id="interiorsForm"></div>
 
+        <h3 style="margin-top: 30px;">Ingame interiors names list</h3>
+        <ul id="interiorsList"></ul>
+    </section>
 
-    </div>
-
-    <div id="interiorsForm"></div>
-
-    <div>---------------------</div>
-
-    <div id="enemiesForm"></div>
-
-    <a href="#" onclick="addEnemyForm()" class="btn">
-        Add enemy
-    </a>
     <script src="script.js"></script>
-
-    <h1 class="bigText">Ingame details names list</h1>
-    <p>Here are the ingame details name that you have to use in your config: </p>
-    <ul id="monstersList">
-
-    </ul>
-
-
-    <h1 class="bigText">Ingame interiors names list</h1>
-    <p>Here are the ingame interiors name that you have to use in your config: </p>
-    <ul id="interiorsList"></ul>
-
     <script src="details.js"></script>
-
-
 </div>
-
 </body>
 </html>

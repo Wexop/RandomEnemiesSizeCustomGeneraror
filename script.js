@@ -128,7 +128,7 @@ const getFormComponent = ( item, id ) => {
 
   return `
     <div class="formContainer">
-        <a href="#" onclick="deleteEnemyForm(${ id })" class="btn danger">Delete</a>
+        <button onclick="deleteEnemyForm(${ id })" class="btn danger">Delete</button>
         <div>
           <p>Enemy ${ id + 1 }</p>
           <div>
@@ -172,7 +172,7 @@ const getInteriorFormComponent = ( item, id ) => {
 
   return `
     <div class="formContainer">
-        <a href="#" onclick="deleteInteriorForm(${ id })" class="btn danger">Delete</a>
+        <button onclick="deleteInteriorForm(${ id })" class="btn danger">Delete</button>
         <div>
           <p>Interior ${ id + 1 }</p>
           <div>
@@ -186,9 +186,9 @@ const getInteriorFormComponent = ( item, id ) => {
          ${ enemiesString }
         </div>
 
-          <a href="#" onclick="addInteriorEnemy(${ id })" class="btn purple">
+          <button onclick="addInteriorEnemy(${ id })" class="btn purple">
               Add enemy
-          </a>
+          </button>
         
     </div>
   `
