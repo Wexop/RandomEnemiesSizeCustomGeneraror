@@ -25,7 +25,11 @@ const details = [
   "Clay Surgeon",
   "Bush Wolf",
   "Maneater",
-  "GiantKiwi"
+  "GiantKiwi",
+  "Cadaver Bloom",
+  "Cadaver Growths",
+  "Feiopar",
+  "Stingray"
 ]
 
 let list = ""
